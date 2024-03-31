@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="{{ url_for('static',filename='style.css')}}">
+</head>
+<body>
+<h1>This is Pycharm magic</h1>
+<form action="/predict" method="get">
+    GRE MARKS :- <input type="text" name="n1" required><br>
+    TOFEL MARKS :- <input type="text" name="n2" required><br>
+    CGPA MARKS :- <input type="text" name="n3" required><hr><br><br>
+    <input type="submit"><input type="reset">
+
+
+
+</form>
+</body>
+</html>
